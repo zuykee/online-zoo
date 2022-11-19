@@ -430,7 +430,7 @@ img {
 }
 
 .header-span {
-    color: var(--yellow);
+    columns: var(--yellow);
 }
 
 
@@ -706,6 +706,14 @@ img {
     background-color: #fff;
     padding-top: 141px;
     padding-bottom: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials-bg-img {
+    position:absolute;
+    top: 70%;
+    left: 84.54%;
 }
 
 .testimonials-container {
@@ -883,7 +891,7 @@ margin-left: 7px;
 }
 
 .footer-donate-btn {
-    
+
 padding: 18px 50px;
     
 margin: 0;
