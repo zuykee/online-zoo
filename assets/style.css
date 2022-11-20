@@ -430,7 +430,7 @@ img {
 }
 
 .header-span {
-    columns: var(--yellow);
+    color: var(--yellow);
 }
 
 
